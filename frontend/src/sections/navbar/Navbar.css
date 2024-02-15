@@ -1,0 +1,50 @@
+.nvbarContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10%;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.nvbarContainer ul a.active {
+    color: rgb(34 197 94);
+}
+
+ul {
+    flex: 1;
+    list-style: none;
+}
+
+.Nav-Link {
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+}
+
+.nav-btn {
+    background: #000;
+    color: #FFF;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 40px;
+    cursor: pointer;
+}
